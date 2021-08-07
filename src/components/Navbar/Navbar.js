@@ -67,12 +67,14 @@ function Navbar() {
                 className={"nav-links-mobile"}
                 onClick={closeMobileMenu}
               >
-                Sign Up
-                <i class={"fas fa-user-circle"}></i>
+                Sign Up   
+                <i
+                  class={"fas fa-user-circle"}
+                ></i>
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">SIGN UP </Button>}
         </div>
       </nav>
     </>
