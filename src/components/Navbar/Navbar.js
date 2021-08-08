@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../Button/Button";
+
 import "./styles.css";
 import "../../App.css";
 
@@ -27,34 +28,34 @@ function Navbar() {
 
   return (
     <>
-      <nav className={"navbar"}>
-        <div className={"navbar-container"}>
-          <Link to="/" className={"navbar-logo"} onClick={closeMobileMenu}>
+      <nav className={"Navbar"}>
+        <div className={"NavbarContainer"}>
+          <Link to="/" className={"NavbarLogo"} onClick={closeMobileMenu}>
             BeautyFace
             <i class="fab fa-pagelines"></i>
           </Link>
-          <div className={"menu-icon"} onClick={handleClick}>
+          <div className={"MenuIcon"} onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className={"nav-item"}>
-              <Link to="/" className={"nav-links"} onClick={closeMobileMenu}>
+          <ul className={click ? "NavMenu active" : "NavMenu"}>
+            <li className={"NavItem"}>
+              <Link to="/" className={"NavLinks"} onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className={"nav-item"}>
+            <li className={"NavItem"}>
               <Link
                 to="/services"
-                className={"nav-links"}
+                className={"NavLinks"}
                 onClick={closeMobileMenu}
               >
                 Services
               </Link>
             </li>
-            <li className={"nav-item"}>
+            <li className={"NavItem"}>
               <Link
                 to="/products"
-                className={"nav-links"}
+                className={"NavLinks"}
                 onClick={closeMobileMenu}
               >
                 Products
@@ -67,12 +68,14 @@ function Navbar() {
                 className={"nav-links-mobile"}
                 onClick={closeMobileMenu}
               >
-                Sign Up
-                <i class={"fas fa-user-circle"}></i>
+                Sign Up   
+                <i
+                  class={"fas fa-user-circle"}
+                ></i>
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && <Button buttonStyle="btn--outline">SIGN UP </Button>}
         </div>
       </nav>
     </>
