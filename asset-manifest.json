@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/WebsiteTask.github.io/static/css/main.8d8b58de.chunk.css",
+    "main.js": "/WebsiteTask.github.io/static/js/main.df3c8eb0.chunk.js",
+    "main.js.map": "/WebsiteTask.github.io/static/js/main.df3c8eb0.chunk.js.map",
+    "runtime-main.js": "/WebsiteTask.github.io/static/js/runtime-main.ac88dfa4.js",
+    "runtime-main.js.map": "/WebsiteTask.github.io/static/js/runtime-main.ac88dfa4.js.map",
+    "static/js/2.b8855625.chunk.js": "/WebsiteTask.github.io/static/js/2.b8855625.chunk.js",
+    "static/js/2.b8855625.chunk.js.map": "/WebsiteTask.github.io/static/js/2.b8855625.chunk.js.map",
+    "index.html": "/WebsiteTask.github.io/index.html",
+    "static/css/main.8d8b58de.chunk.css.map": "/WebsiteTask.github.io/static/css/main.8d8b58de.chunk.css.map",
+    "static/js/2.b8855625.chunk.js.LICENSE.txt": "/WebsiteTask.github.io/static/js/2.b8855625.chunk.js.LICENSE.txt",
+    "static/media/slideShow1.b0f785ea.jpg": "/WebsiteTask.github.io/static/media/slideShow1.b0f785ea.jpg",
+    "static/media/slideShow2.37bf9eef.jpg": "/WebsiteTask.github.io/static/media/slideShow2.37bf9eef.jpg",
+    "static/media/slideShow3.33c0dc0a.jpg": "/WebsiteTask.github.io/static/media/slideShow3.33c0dc0a.jpg",
+    "static/media/slideShow4.28ccf2e0.jpg": "/WebsiteTask.github.io/static/media/slideShow4.28ccf2e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac88dfa4.js",
+    "static/js/2.b8855625.chunk.js",
+    "static/css/main.8d8b58de.chunk.css",
+    "static/js/main.df3c8eb0.chunk.js"
+  ]
+}
