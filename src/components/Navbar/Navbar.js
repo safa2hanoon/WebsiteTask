@@ -27,34 +27,34 @@ function Navbar() {
 
   return (
     <>
-      <nav className={"navbar"}>
-        <div className={"navbar-container"}>
-          <Link to="/" className={"navbar-logo"} onClick={closeMobileMenu}>
+      <nav className={"Navbar"}>
+        <div className={"NavbarContainer"}>
+          <Link to="/" className={"NavbarLogo"} onClick={closeMobileMenu}>
             BeautyFace
             <i class="fab fa-pagelines"></i>
           </Link>
-          <div className={"menu-icon"} onClick={handleClick}>
+          <div className={"MenuIcon"} onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className={"nav-item"}>
-              <Link to="/" className={"nav-links"} onClick={closeMobileMenu}>
+          <ul className={click ? "NavMenu active" : "NavMenu"}>
+            <li className={"NavItem"}>
+              <Link to="/" className={"NavLinks"} onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className={"nav-item"}>
+            <li className={"NavItem"}>
               <Link
                 to="/services"
-                className={"nav-links"}
+                className={"NavLinks"}
                 onClick={closeMobileMenu}
               >
                 Services
               </Link>
             </li>
-            <li className={"nav-item"}>
+            <li className={"NavItem"}>
               <Link
                 to="/products"
-                className={"nav-links"}
+                className={"NavLinks"}
                 onClick={closeMobileMenu}
               >
                 Products
@@ -64,7 +64,7 @@ function Navbar() {
             <li>
               <Link
                 to="/sign-up"
-                className={"nav-links-mobile"}
+                className={"NavLinksMobile"}
                 onClick={closeMobileMenu}
               >
                 Sign Up   

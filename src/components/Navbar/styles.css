@@ -1,4 +1,4 @@
-.navbar {
+.Navbar {
   height: 80px;
   display: flex;
   justify-content: center;
@@ -10,7 +10,7 @@
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
-.navbar-container {
+.NavbarContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@
   max-width: 1550px;
 }
 
-.navbar-logo {
+.NavbarLogo {
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -29,7 +29,11 @@
   color: #fff;
 }
 
-.nav-menu {
+.MenuIcon {
+  display: none;
+}
+
+.NavMenu {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
@@ -40,11 +44,11 @@
   margin-right: 2rem;
 }
 
-.nav-item {
+.NavItem {
   height: 80px;
 }
 
-.nav-links {
+.NavLinks {
   padding: 0.5rem 2rem;
   height: 100%;
   display: flex;
@@ -53,7 +57,7 @@
   color: #fff;
 }
 
-.nav-links:hover {
+.NavLinks:hover {
   transition: all 0.2s ease-out;
   border-bottom: 3px solid #fff;
 }
@@ -68,16 +72,13 @@
 }
 
 
-.menu-icon {
-  display: none;
-}
 
 @media screen and (max-width: 980px) {
   .NavbarItems {
     position: relative;
   }
 
-  .nav-menu {
+  .NavMenu {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -89,7 +90,7 @@
     transition: all 0.5s ease;
   }
 
-  .nav-menu.active {
+  .NavMenu.active {
     background: #242222;
     left: 0;
     opacity: 1;
@@ -97,27 +98,27 @@
     z-index: 1;
   }
 
-  .nav-links {
+  .NavLinks {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
 
-  .nav-links:hover {
+  .NavLinks:hover {
     border-radius: 0;
     background-color: #fff;
     color: #242424;
   }
 
-  .navbar-logo {
+  .NavbarLogo {
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
+  .MenuIcon {
     display: block;
     position: absolute;
     top: 0;
@@ -131,8 +132,11 @@
     font-size: 2rem;
     color: rgb(255, 255, 255);
   }
+  .fa-user-circle{
+    margin-left:7px;
+  }
 
-  .nav-links-mobile {
+  .NavLinksMobile {
     display: block;
     text-align: center;
     margin: 16px auto;
@@ -145,10 +149,9 @@
     padding: 18px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
-    word-spacing: 5px;
   }
 
-  .nav-links-mobile:hover {
+  .NavLinksMobile:hover {
     transition: 250ms;
     background: #fff;
     color: #242424;
