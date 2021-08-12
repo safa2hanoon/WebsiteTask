@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/WebsiteTask/static/css/main.b05599e2.chunk.css",
+    "main.js": "/WebsiteTask/static/js/main.af0f88e0.chunk.js",
+    "main.js.map": "/WebsiteTask/static/js/main.af0f88e0.chunk.js.map",
+    "runtime-main.js": "/WebsiteTask/static/js/runtime-main.7ac9e3c5.js",
+    "runtime-main.js.map": "/WebsiteTask/static/js/runtime-main.7ac9e3c5.js.map",
+    "static/js/2.cc1727a1.chunk.js": "/WebsiteTask/static/js/2.cc1727a1.chunk.js",
+    "static/js/2.cc1727a1.chunk.js.map": "/WebsiteTask/static/js/2.cc1727a1.chunk.js.map",
+    "index.html": "/WebsiteTask/index.html",
+    "static/css/main.b05599e2.chunk.css.map": "/WebsiteTask/static/css/main.b05599e2.chunk.css.map",
+    "static/js/2.cc1727a1.chunk.js.LICENSE.txt": "/WebsiteTask/static/js/2.cc1727a1.chunk.js.LICENSE.txt",
+    "static/media/slideShow1.b0f785ea.jpg": "/WebsiteTask/static/media/slideShow1.b0f785ea.jpg",
+    "static/media/slideShow2.37bf9eef.jpg": "/WebsiteTask/static/media/slideShow2.37bf9eef.jpg",
+    "static/media/slideShow3.33c0dc0a.jpg": "/WebsiteTask/static/media/slideShow3.33c0dc0a.jpg",
+    "static/media/slideShow4.28ccf2e0.jpg": "/WebsiteTask/static/media/slideShow4.28ccf2e0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ac9e3c5.js",
+    "static/js/2.cc1727a1.chunk.js",
+    "static/css/main.b05599e2.chunk.css",
+    "static/js/main.af0f88e0.chunk.js"
+  ]
+}

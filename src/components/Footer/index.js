@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Container, Wrapper, Row, Column, Link, Title } from "./styles/Footer";
 
 export default function Footer({ children, ...restProps }) {

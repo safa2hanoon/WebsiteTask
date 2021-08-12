@@ -1,13 +1,15 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Icon from "../components/Icons";
-
+// import Icon from "../components/Icons";
+import SocialShare from "../components/SocailShare/SocialShare";
+import FooterNew from "../components/FooterNew/FooterNew";
 export function FooterContainer() {
   return (
     <Footer>
       <Footer.Wrapper>
         <Footer.Row>
           <Footer.Column>
+          
             <Footer.Title>ABOUT US</Footer.Title>
             <Footer.Link href="#">About BeautyFace store</Footer.Link>
             <Footer.Link href="#">About WISHFUL</Footer.Link>
@@ -27,7 +29,9 @@ export function FooterContainer() {
           </Footer.Column>
           <Footer.Column>
             <Footer.Title>SOCIAL</Footer.Title>
-            <Footer.Link href="#">
+            <SocialShare/>
+            {
+              /* <Footer.Link href="#">
               <Icon className={"fab fa-facebook"} />
               Facebook
             </Footer.Link>
@@ -42,7 +46,7 @@ export function FooterContainer() {
             <Footer.Link href="#">
               <Icon className={"fab fa-twitter"} />
               Twitter
-            </Footer.Link>
+            </Footer.Link> */}
           </Footer.Column>
         </Footer.Row>
       </Footer.Wrapper>

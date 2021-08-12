@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "icon":"fab fa-facebook",
+    "title":"Facebook",
+    "link": "https://www.facebook.com/hudabeauty"
+  },
+  {
+    "id": 2,
+    "icon": "fab fa-instagram",
+    "title": "Instagram",
+    "link": "https://www.instagram.com/hudabeauty/"
+  },
+  {
+    "id": 3,
+    "icon": "fab fa-youtube",
+    "title": "Youtube",
+    "link": "https://www.youtube.com/user/hudaheidik"
+  }, 
+   {
+     "id": 4,
+     "icon": "fab fa-snapchat",
+     "title": "Snapchat",
+     "link": "https://story.snapchat.com/@hudabeauty"
+   }
+]

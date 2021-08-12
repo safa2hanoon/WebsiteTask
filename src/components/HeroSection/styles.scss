@@ -1,0 +1,99 @@
+@import "../../mixings/mixings.scss";
+
+.hero-container {
+  background: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1132350479%2FOrganic-and-natural-cosmetics%2F960x0.jpg%3Ffit%3Dscale")
+    center center/cover no-repeat;
+  height: 680px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  .HeroContainerTitle {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    @include lg {
+      font-size: 90px !important;
+    }
+    @include md {
+      font-size: 50px;
+    }
+  }
+  span {
+    margin-top: 8px;
+    color: rgb(81, 6, 6);
+    font-size: 32px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+.hero-btns {
+  margin-top: 32px;
+  .btn {
+    margin: 6px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    .fa-play-circle {
+      margin-left: 4px;
+    }
+  }
+}
+
+.GetStartedBtn {
+  background-color: transparent;
+  color: #fff;
+  transition: all 0.3s ease-out;
+&:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    border-color: rgb(32, 32, 32);
+    cursor: pointer;
+  }
+  @include lg {
+    width: 300px;
+    height: 80px;
+    font-size: 25px;
+    word-spacing: 1px;
+  }
+  @include xs {
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    word-spacing: 1px;
+  }
+  @include md {
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+  }
+}
+
+.WatchTrailerBtn {
+  width: 180px;
+  background-color: #fff;
+  color: #242424;
+  &:hover {
+    cursor: pointer;
+  }
+  @include lg {
+    width: 348px;
+    height: 80px;
+    font-size: 25px;
+  }
+  @include md {
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+  }
+  @include xs {
+    height: 35px;
+    width: 120px;
+    font-size: 18px;
+    word-spacing: 1px;
+  }
+}
+

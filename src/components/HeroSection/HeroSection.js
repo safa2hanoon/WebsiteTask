@@ -1,37 +1,22 @@
 import React from "react";
-// import styled, { css } from "styled-components/macro";
-
-import { Button } from "../Button/Button";
 
 import "../../App.css";
-import "./styles.css";
+import "./styles.scss";
 
-// const HeroSections= styled.section`
-// height:100vh;
-// max-height:1100px;
-// position:relative;
-// overflow:hidden;
-// `;
+import { Button } from "reactstrap";
 
 const HeroSection = () => {
   return (
     <div className={"hero-container"}>
-      <h1>Natural Cosmatics </h1>
-      <p>What are you waiting for ?</p>
+      <span className="HeroContainerTitle">Natural Cosmatics </span>
+      <span>What are you waiting for ?</span>
       <div className={"hero-btns"}>
-        <Button
-          className={"btns"}
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
+        <Button className="GetStartedBtn">
           GET STARTED
         </Button>
-        <Button
-          className={"btns"}
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          WATCH TRAILER <i className={"far fa-play-circle"} />
+        <Button className="WatchTrailerBtn">
+          WATCH TRAILER
+          <i className={"far fa-play-circle"} />
         </Button>
       </div>
     </div>

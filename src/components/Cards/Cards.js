@@ -1,8 +1,8 @@
-import "./styles.css";
 import React, { Component } from "react";
 import axios from "axios";
 import CardItem from "../CardItem/CardItem";
 
+import "./styles.scss";
 class Cards extends Component {
   state = {
     products: [],

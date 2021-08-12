@@ -20,13 +20,12 @@ export const Column = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: left;
-  margin: 60px;
+  margin: 20px;
   width: 210px;
   grid-gap: -10px;
   @media screen and (max-width: 960px) {
-    width: 130px;
+    width: 155px;
     margin: 20px auto;
-    grid-gap: 1px;
   }
 `;
 
@@ -46,6 +45,7 @@ export const Link = styled.a`
     color: #a52a2a;
     transition: 200ms ease-in;
     cursor: pointer;
+    text-decoration: none;
   }
   @media screen and (max-width: 1024px) {
     font-size: 15px;
